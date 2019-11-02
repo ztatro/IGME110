@@ -1,0 +1,15 @@
+body {
+    background-color: #172333;
+}
+h1 {
+    font-family: 'Muli', sans-serif;
+
+    color: black;
+    font-size: 100px;
+    text-align: center;
+    background-image: url("TitleImage.JPG");
+
+    }
+p {
+    font-family: 'Noto Sans KR', sans-serif;
+}
