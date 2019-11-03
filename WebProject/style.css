@@ -8,7 +8,7 @@ body {
 .item2 {grid-area: main;}
 .item3 {grid-area: menu;}
 .item4 {grid-area: title2;}
-.item5 {grid-area: main2}
+.item5 {grid-area: main2;}
 
 .grid-container {
     display: grid;
@@ -44,7 +44,7 @@ h1 {
     text-align: center;
     background-color: #1e232d;
     margin: 0;
-    }
+}
 h2 {
     font-family: 'Muli', sans-serif;
     color:#d6d6d6;
