@@ -107,4 +107,18 @@ p2 {
     justify-content: center;
 }
 
-
+.p2 {
+    font-family: 'Muli', sans-serif;
+    color:#d6d6d6;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+.p1 {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+img{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
