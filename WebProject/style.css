@@ -91,11 +91,7 @@ h2 {
 .button3:hover {
     box-shadow: 0 12px 16px 0 white;
 }
-p {
-    font-family: 'Noto Sans', sans-serif;
-    color: #d6d6d6;
-    font-size: 20px
-}
+
 p1 {
     font-family: 'Noto Sans', sans-serif;
 }
@@ -144,8 +140,15 @@ iframe {
     border-color: black;
     background-color: black;
 }
-.ul{
+ul{
     font-family: 'Noto Sans', sans-serif;
     color: #d6d6d6;
-    font-size: 20px
+    font-size: 20px;
+    background-color: #1e232d;
+    padding: 5px;
+    width: 775px
+}
+
+.dd{
+
 }
