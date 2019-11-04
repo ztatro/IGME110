@@ -20,12 +20,12 @@ body {
     grid-template-areas:
         'title title title title '
         'title title title title '
-        'main3 title2 menu main4'
-        'main3 main menu main4'
-        'main3 main menu main4'
-        'main3 main2 menu main4'
-        'main3 main2 menu main4'
-        'main3 main2 menu main4'
+        'main3 title2 main4 menu'
+        'main3 main main4 menu'
+        'main3 main main4 menu'
+        'main3 main2 main4 menu'
+        'main3 main2 main4 menu'
+        'main3 main2 main4 menu'
         ;
     grid-gap: 10px;
 }
