@@ -114,6 +114,7 @@ p2 {
     font-size: 30px;
     display: flex;
     justify-content: center;
+
 }
 .p1 {
     font-family: 'Noto Sans', sans-serif;
@@ -130,3 +131,7 @@ img {
     height: 100%;
 }
 
+iframe {
+    float: left;
+
+}
