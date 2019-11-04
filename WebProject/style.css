@@ -9,25 +9,24 @@ body {
 .item3 {grid-area: menu;}
 .item4 {grid-area: title2;}
 .item5 {grid-area: main2;}
+.item6 {grid-area: main3;}
+.item7 {
+    grid-area: main4;
+
+}
 
 .grid-container {
     display: grid;
     grid-template-areas:
-        'title title title title title title title title title title title'
-        'title title title title title title title title title title title'
-        'title2 title2 title2 title2 title2 title2 title2 title2 menu menu menu'
-        'main main main main main main main main menu menu menu'
-        'main main main main main main main main menu menu menu'
-        'main2 main2 main2 main2 main2 main2 main2 main2 menu menu menu'
-        'main2 main2 main2 main2 main2 main2 main2 main2 menu menu menu'
-        'main2 main2 main2 main2 main2 main2 main2 main2 menu menu menu'
-        'main2 main2 main2 main2 main2 main2 main2 main2 menu menu menu'
-        'main2 main2 main2 main2 main2 main2 main2 main2 menu menu menu'
-        'main2 main2 main2 main2 main2 main2 main2 main2 menu menu menu'
-        'main2 main2 main2 main2 main2 main2 main2 main2 menu menu menu'
-        'main2 main2 main2 main2 main2 main2 main2 main2 menu menu menu'
-        'main2 main2 main2 main2 main2 main2 main2 main2 menu menu menu'
-        'main2 main2 main2 main2 main2 main2 main2 main2 menu menu menu';
+        'title title title title '
+        'title title title title '
+        'main3 title2 menu main4'
+        'main3 main menu main4'
+        'main3 main menu main4'
+        'main3 main2 menu main4'
+        'main3 main2 menu main4'
+        'main3 main2 menu main4'
+        ;
     grid-gap: 10px;
 }
 
@@ -115,6 +114,7 @@ p2 {
     display: flex;
     justify-content: center;
 
+
 }
 .p1 {
     font-family: 'Noto Sans', sans-serif;
@@ -127,11 +127,18 @@ a {
 }
 img {
     display: flex;
+    justify-content: center;
     width: 100%;
     height: 100%;
+
+
 }
 
 iframe {
-    float: left;
+    padding: 100px;
+    border-color: black;
+    background-color: black;
+
+
 
 }
