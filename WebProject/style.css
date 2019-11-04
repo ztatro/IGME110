@@ -116,9 +116,7 @@ p2 {
     font-family: 'Noto Sans', sans-serif;
 }
 .p {
-    font-family: 'Noto Sans', sans-serif;
-    color: #d6d6d6;
-    font-size: 20px
+    padding-left: 40px;
 }
 
 a {
@@ -140,7 +138,7 @@ iframe {
     border-color: black;
     background-color: black;
 }
-ul{
+.ul{
     font-family: 'Noto Sans', sans-serif;
     color: #d6d6d6;
     font-size: 20px;
@@ -149,6 +147,3 @@ ul{
     width: 775px
 }
 
-.dd{
-
-}
